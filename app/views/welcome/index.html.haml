@@ -1,1 +1,35 @@
-%h1 This is the welcome placeholder
+#banner
+  .banner_content
+    %h1 Note In Hand
+    %p Start making your ideas count.
+    %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "Be very careful, then, how you live—not as unwise but as wise, making the most of every opportunity, because the days are evil. Therefore do not be foolish, but understand what the Lord’s will is."
+    %p.name - Ephesians 5:15-17
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %i.fa.fa-camera
+        %h2 Moment
+        %p Practice, practice, practice. Keep on coding!
+      .callout
+        %i.fa.fa-pencil
+        %h2 Note
+        %p Practice, practice, practice. Keep on coding!
+      .callout
+        %i.fa.fa-rocket
+        %h2 Lightning
+        %p Practice, practice, practice. Keep on coding!
+
+#bottom_cta
+  .wrapper
+    %h2 For Real!
+    %p I want you to sign up.. If you don't, I will find you!
+    %button= link_to "Click Meee!!!", new_user_registration_path
+
+%footer
+  %p &copy; Casey Kim
